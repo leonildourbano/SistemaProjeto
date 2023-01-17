@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ProjEscola.Models.ProjTurma>
+﻿@model TurmaTipoViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -14,12 +14,12 @@
 <form asp-controller="ProjTurmas" asp-action="Index">
     <p>
 
-        <select asp-for="TipoTurma" asp-items="Model.turmas">
+        <select asp-for="TipoTurma" asp-items="Model.Tipos">
             <option value="">All</option>
         </select>
 
 
-        Title: <input type="text" name="SearchString" />
+        Title: <input type="text" asp-for="SearchString"/>
         <input type="submit" value="Filter" />
     </p>
 </form>
@@ -30,25 +30,25 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NomeTurma)
+                @Html.DisplayNameFor(model => model.Turmas[0].NomeTurma)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataInicioTurma)
+                @Html.DisplayNameFor(model => model.Turmas[0].DataInicioTurma)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataTerminoTurma)
+                @Html.DisplayNameFor(model => model.Turmas[0].DataTerminoTurma)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TipoTurma)
+                @Html.DisplayNameFor(model => model.Turmas[0].TipoTurma)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.HorarioTurma)
+                @Html.DisplayNameFor(model => model.Turmas[0].HorarioTurma)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.Turmas) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.NomeTurma)

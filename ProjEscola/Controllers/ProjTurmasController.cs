@@ -43,7 +43,7 @@ namespace ProjEscola.Controllers
         */
 
         // GET: ProjTurmas
-        public async Task<IActionResult> Index(string turmaTipo, string searchString)
+        public async Task<IActionResult> Index(string tipoTurma, string searchString)
         {
             // Use LINQ to get list of genres.
             IQueryable<string> tipoQuery = from t in _context.ProjTurma
@@ -57,9 +57,9 @@ namespace ProjEscola.Controllers
                 turmas = turmas.Where(s => s.NomeTurma!.Contains(searchString));
             }
 
-            if (!string.IsNullOrEmpty(turmaTipo))
+            if (!string.IsNullOrEmpty(tipoTurma))
             {
-                turmas = turmas.Where(x => x.TipoTurma == turmaTipo);
+                turmas = turmas.Where(x => x.TipoTurma == tipoTurma);
             }
 
             var turmaTipoVM = new TurmaTipoViewModel

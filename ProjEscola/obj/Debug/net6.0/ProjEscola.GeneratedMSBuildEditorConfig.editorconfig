@@ -9,97 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjEscola
 build_property.RootNamespace = ProjEscola
-build_property.ProjectDir = C:\Diversos\CursoAspNet\SistemaProjeto\ProjEscola\
+build_property.ProjectDir = D:\CursoAspNet\SistemaProjeto\ProjEscola\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Diversos\CursoAspNet\SistemaProjeto\ProjEscola
+build_property.MSBuildProjectDirectory = D:\CursoAspNet\SistemaProjeto\ProjEscola
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/Home/Index.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/Home/Privacy.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Create.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvakVzdHVkYW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Delete.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvakVzdHVkYW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Details.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvakVzdHVkYW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Edit.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvakVzdHVkYW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Index.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjEstudantes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvakVzdHVkYW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Create.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalByb2Zlc3NvcmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Delete.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalByb2Zlc3NvcmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Details.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalByb2Zlc3NvcmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Edit.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalByb2Zlc3NvcmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Index.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjProfessores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalByb2Zlc3NvcmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Create.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalR1cm1hc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Delete.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalR1cm1hc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Details.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalR1cm1hc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Edit.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalR1cm1hc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Index.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/ProjTurmas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvalR1cm1hc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/Shared/Error.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/_ViewImports.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/_ViewStart.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Diversos/CursoAspNet/SistemaProjeto/ProjEscola/Views/Shared/_Layout.cshtml]
+[D:/CursoAspNet/SistemaProjeto/ProjEscola/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-klz88hwgcq
