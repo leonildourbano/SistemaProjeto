@@ -14,6 +14,6 @@ namespace ProjEscola.Models
         public string? FoneEstudante { get; set; }
 
         public string? DataNascimentoEstudante { get; set; }
-
+        
     }
 }

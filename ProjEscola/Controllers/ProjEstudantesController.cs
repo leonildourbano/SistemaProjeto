@@ -19,11 +19,27 @@ namespace ProjEscola.Controllers
             _context = context;
         }
 
+        /*
         // GET: ProjEstudantes
         public async Task<IActionResult> Index()
         {
               return View(await _context.ProjEstudante.ToListAsync());
         }
+        */
+        public async Task<IActionResult> Index(string searchString)
+        {
+            var projestudantes = from e in _context.ProjEstudante
+                                 select e;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                projestudantes = projestudantes.Where(s => s.NomeEstudante!.Contains(searchString));
+            }
+
+            return View(await projestudantes.ToListAsync());
+        }
+
+
 
         // GET: ProjEstudantes/Details/5
         public async Task<IActionResult> Details(int? id)

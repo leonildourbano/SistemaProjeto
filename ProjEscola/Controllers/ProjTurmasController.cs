@@ -19,11 +19,73 @@ namespace ProjEscola.Controllers
             _context = context;
         }
 
+        /*
         // GET: ProjTurmas
         public async Task<IActionResult> Index()
         {
               return View(await _context.ProjTurma.ToListAsync());
         }
+        */
+
+        /* 
+        public async Task<IActionResult> Index(string searchString)
+        {
+            var projturmas = from t in _context.ProjTurma
+                                  select t;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                projturmas = projturmas.Where(s => s.NomeTurma!.Contains(searchString));
+            }
+
+            return View(await projturmas.ToListAsync());
+        }
+        */
+
+        // GET: ProjTurmas
+        public async Task<IActionResult> Index(string turmaTipo, string searchString)
+        {
+            // Use LINQ to get list of genres.
+            IQueryable<string> tipoQuery = from t in _context.ProjTurma
+                                            orderby t.TipoTurma
+                                            select t.TipoTurma;
+            var turmas = from t in _context.ProjTurma
+                         select t;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                turmas = turmas.Where(s => s.NomeTurma!.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(turmaTipo))
+            {
+                turmas = turmas.Where(x => x.TipoTurma == turmaTipo);
+            }
+
+            var turmaTipoVM = new TurmaTipoViewModel
+            {
+                Tipos = new SelectList(await tipoQuery.Distinct().ToListAsync()),
+                Turmas = await turmas.ToListAsync()
+            };
+
+            return View(turmaTipoVM);
+        }
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
 
         // GET: ProjTurmas/Details/5
         public async Task<IActionResult> Details(int? id)
